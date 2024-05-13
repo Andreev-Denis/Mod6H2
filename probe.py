@@ -1,17 +1,13 @@
 class Vehicle():
     vehicle_type = None
-    def __str__(self):
-        return 'Vehicle type ={}'.format(self.vehicle_type)
 
 class Car():
     price = 1000000
-
     def horse_powers(self):
         return 100
 
 class Nissan (Car, Vehicle):
     price = 150000
-
     vehicle_type = 'Sportcar'
 
     def horse_powers(self):
